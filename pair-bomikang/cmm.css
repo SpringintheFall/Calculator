@@ -1,0 +1,23 @@
+@charset "uft-08";
+/* Font set*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+
+/* cmm set */
+html { margin: 0; }
+body { margin: 64px; background-color:#C4D1DE; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; transform : rotate(0.04deg); }
+.calculator { width: 448px; height: 624px; padding: 40px; box-sizing: border-box; border-radius: 32px; 
+  background: #FFF; box-shadow:  0px 4px 32px #02154147; }
+.tit {  margin: 0 0 16px 0; text-transform: uppercase; }
+.view { width: 368px; height: 158px; box-sizing: border-box; border: 4px solid #C9C9C9; 
+  overflow: hidden; background: #3B4045; border-radius: 20px; }
+  .view p { margin: 16px; color: #FFF; font-size: 32px; font-weight: 400; letter-spacing: 1px; word-break: break-all; }
+.wrap { margin: 32px 0; }
+.operator_set { margin-bottom: 16px; }
+.num_set { display: grid; gap: 16px; grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+/* btn set */
+.btn_cmm { cursor: pointer; width: 80px; height: 52px; box-sizing: border-box; font-weight: 600; 
+  font-size: 24px; color:#3B4045; background: #E8E8E8; box-shadow: 0px 4px 0px #DADADA; border-radius: 16px; border : none;}
+._operator { margin-right: 16px; height: 32px; font-size: 18px; border-radius: 12px; }
+/* ._control {} */
+/* ._num { }  */
