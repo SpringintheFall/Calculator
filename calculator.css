@@ -1,3 +1,97 @@
+@charset "uft-08";
+
+/* Font set*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+@font-face { 
+  font-family: 'BP'; 
+  font-style: normal;
+  font-weight: 700;
+  src: 
+  url('/resources/font/BusanFont_Provisional.woff') format('woff'),
+  url('/resources/font/BitgoeulGwangju_Bold.woff2') format('woff2'); 
+}
+@font-face {
+	font-family: 'PTD';
+	font-weight: 900;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-Black.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 800;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-ExtraBold.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 700;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-Bold.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 600;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-SemiBold.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 500;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-Medium.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 400;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-Regular.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 300;
+	font-display: swap;
+	src:
+	url('/resources/font/Pretendard-Light.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 200;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-ExtraLight.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PTD';
+	font-weight: 100;
+	font-display: swap;
+	src: 
+	url('/resources/font/Pretendard-Thin.woff2') format('woff2'), 
+	url('/resources/font/Pretendard-Thin.woff') format('woff');
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -121,26 +215,26 @@
   grid-column: 5 / 6;
 }
 
-.on {
-  position: absolute;
-  bottom: 40%;
-  left: 30%;
+.on, .rate, .tax {
   font-size: 12px;
   font-weight: bold;
+  color: #3a343e;
+}
+
+.on {
+  position: absolute;
+  bottom: 382px;
+  left: 530px;
 }
 
 .rate {
   position: absolute;
-  top: 31%;
-  right: 488px;
-  font-size: 12px;
-  font-weight: bold;
+  top: 305px;
+  right: 715px;
 }
 
 .tax {
   position: absolute;
-  top: 31%;
-  right: 335px;
-  font-size: 12px;
-  font-weight: bold;
+  top: 305px;
+  right: 560px;
 }
