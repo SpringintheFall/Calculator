@@ -1,6 +1,6 @@
-# Calculator
-Unit_6
+# Calcula
 
+## Unit_6 계산기 만들기
 ### 학습 목표
 ---
 - HTML과 CSS를 활용하여 만들고자 하는 웹 애플리케이션의 레이아웃을 구성할 수 있다.
