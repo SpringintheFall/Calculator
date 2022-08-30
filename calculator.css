@@ -26,6 +26,7 @@ body {
   height: 240px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center ;
 }
 
@@ -58,6 +59,14 @@ body {
   border: 8px solid #bba3a6;
   border-radius: 10px;
   margin-bottom: 4px;
+  text-align: right;
+}
+
+.text {
+  position: relative;
+  top: 24%;
+  right: 10%;
+  font-size: 50px;
 }
 
 .name {
@@ -66,6 +75,7 @@ body {
   font-weight: bold;
   color: #3a343e;
   text-align: end;
+  padding-right: 5px;
 }
 
 .wrapper_body {
@@ -73,7 +83,7 @@ body {
   height: 400px;
   background-color: #d2b9bc;
   border-radius: 32px;
-  padding: 27px 35px;
+  padding: 27px 38px;
 }
 
 .wrapper_body_top {
@@ -103,11 +113,11 @@ body {
 
 .btn_1 {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .btn_2, .btn_3, .btn_4, .btn_5, .btn_6, .btn_p, .btn_plus {
   font-size: 30px;
-  text-align: center;
 }
 
 .btn_mrc {
@@ -139,17 +149,17 @@ body {
 .on {
   position: absolute;
   bottom: 382px;
-  left: 530px;
+  left: 534px;
 }
 
 .rate {
   position: absolute;
   top: 305px;
-  right: 715px;
+  right: 710px;
 }
 
 .tax {
   position: absolute;
   top: 305px;
-  right: 560px;
+  right: 555px;
 }
