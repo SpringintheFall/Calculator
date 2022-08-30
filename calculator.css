@@ -1,6 +1,11 @@
+@charset "uft-08";
+
+/* Font set*/
 body {
   font-family: Pretendard;
+  transform : rotate(0.04deg);
 }
+
 
 * {
   box-sizing: border-box;
