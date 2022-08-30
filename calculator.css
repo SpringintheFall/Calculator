@@ -1,10 +1,11 @@
 @charset "uft-08";
 
 /* Font set*/
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
-body { margin: 64px; background-color:#C4D1DE; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 
-	"Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", 
-	"Segoe UI Symbol", sans-serif; transform : rotate(0.04deg); }
+body {
+  font-family: Pretendard;
+  transform : rotate(0.04deg);
+}
+
 
 * {
   box-sizing: border-box;
@@ -72,26 +73,45 @@ body { margin: 64px; background-color:#C4D1DE; font-family: Pretendard, -apple-s
   height: 400px;
   background-color: #d2b9bc;
   border-radius: 32px;
-  display: grid;
-  grid-template-columns: repeat(5, 63px);
-  grid-template-rows: repeat(6, 52px);
-  gap: 10px 13px;
   padding: 27px 35px;
 }
 
-.btn1 {
-  
+.wrapper_body_top {
+  display: grid;
+  grid-template-columns: repeat(5, 63px);
+  grid-template-rows: repeat(1, 30px);
+  gap: 10px 13px;
+  margin-bottom: 13px;
 }
 
-.btn_3, .btn_4, .btn_5, .btn_6, .btn_plus {
+.wrapper_body_bottom {
+  display: grid;
+  grid-template-columns: repeat(5, 63px);
+  grid-template-rows: repeat(5, 52px);
+  gap: 10px 13px;
+}
+
+.btn_1, .btn_2, .btn_mrc, .btn_3, .btn_4, .btn_5, .btn_6, .btn_plus {
   background-color: #baa0a3;
   border-top: 2px solid #66474b;
   border-right: 2px solid #66474b;
   border-bottom: 2px solid #aa9699;
   border-left: 2px solid #aa9699;
   border-radius: 20px;
-  font-size: 30px;
   color: #3a343e;
+}
+
+.btn_1 {
+  font-size: 18px;
+}
+
+.btn_2, .btn_3, .btn_4, .btn_5, .btn_6, .btn_p, .btn_plus {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn_mrc {
+  font-size: 22px;
 }
 
 
@@ -102,11 +122,34 @@ body { margin: 64px; background-color:#C4D1DE; font-family: Pretendard, -apple-s
   border-bottom: 2px solid #995e71;
   border-left: 2px solid #995e71;
   border-radius: 20px;
-  font-size: 30px;
   color: #3a343e;
 }
 
 .btn_plus {
-  grid-row: 5 / 7;
+  grid-row: 4 / 6;
   grid-column: 5 / 6;
+}
+
+.on, .rate, .tax {
+  font-size: 12px;
+  font-weight: bold;
+  color: #3a343e;
+}
+
+.on {
+  position: absolute;
+  bottom: 382px;
+  left: 530px;
+}
+
+.rate {
+  position: absolute;
+  top: 305px;
+  right: 715px;
+}
+
+.tax {
+  position: absolute;
+  top: 305px;
+  right: 560px;
 }
